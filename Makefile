@@ -6,6 +6,9 @@ install:
 brain-games:
 	sudo poetry run brain-games
 
+brain-even:
+	sudo poetry run brain-even
+
 build:
 	sudo poetry build
 
@@ -17,3 +20,4 @@ package-install:
 
 lint:
 	sudo poetry run flake8 brain_games
+
