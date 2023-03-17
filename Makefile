@@ -15,3 +15,5 @@ publish:
 package-install:
 	sudo python3 -m pip install --user dist/*.whl
 
+lint:
+	sudo poetry run flake8 brain_games

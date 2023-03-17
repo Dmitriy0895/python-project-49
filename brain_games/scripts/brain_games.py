@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import sys
 from ..cli import welcome_user
 
 
