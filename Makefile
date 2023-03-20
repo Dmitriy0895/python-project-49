@@ -9,6 +9,9 @@ brain-games:
 brain-even:
 	sudo poetry run brain-even
 
+brain-calc:
+	sudo poetry run brain-calc
+
 build:
 	sudo poetry build
 
