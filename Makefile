@@ -12,6 +12,9 @@ brain-even:
 brain-calc:
 	sudo poetry run brain-calc
 
+brain-gcd:
+	sudo poetry run brain-gcd
+
 build:
 	sudo poetry build
 
@@ -23,4 +26,3 @@ package-install:
 
 lint:
 	sudo poetry run flake8 brain_games
-
