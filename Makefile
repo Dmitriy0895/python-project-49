@@ -15,6 +15,9 @@ brain-calc:
 brain-gcd:
 	sudo poetry run brain-gcd
 
+brain-progression:
+	sudo poetry run brain-progression
+
 build:
 	sudo poetry build
 
