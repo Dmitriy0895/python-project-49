@@ -6,7 +6,7 @@ import brain_games.scripts.fb as fb
 
 def brain_gcd():
     obj = {}
-    print("Find the greatest common divisor of given numbers")
+    print("Find the greatest common divisor of given numbers.")
     for i in range(1, 4):
         a = random.choice(range(1, 99))
         b = random.choice(range(1, 99))

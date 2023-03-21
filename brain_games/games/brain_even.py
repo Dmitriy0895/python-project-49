@@ -5,7 +5,7 @@ import brain_games.scripts.fb as fb
 
 
 def brain_even():
-    print("Answer 'yes' if the number is even, otherwise answer 'no'")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     obj = {}
     for i in range(1, 4):
         question = random.randint(1, 99)
