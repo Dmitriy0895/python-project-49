@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import prompt
-import random
 
 
 def games(fn):
@@ -26,4 +25,3 @@ def games(fn):
 
     print(f"Congratulations, {name}!")
     return
-
