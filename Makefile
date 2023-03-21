@@ -18,6 +18,9 @@ brain-gcd:
 brain-progression:
 	sudo poetry run brain-progression
 
+brain-prime:
+	sudo poetry run brain-prime
+
 build:
 	sudo poetry build
 
