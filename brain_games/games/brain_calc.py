@@ -16,7 +16,7 @@ def brain_calc():
         number1 = random.choice(range(1, 11))
         number2 = random.choice(range(1, 11))
         arithm = random.choice(list(arithmetic.keys()))
-        question = str(number1) + str(arithm) + str(number2)
+        question = f"{number1} {arithm} {number2}"
         answer = str(arithmetic[arithm](number1, number2))
         obj[question] = answer
     return obj
